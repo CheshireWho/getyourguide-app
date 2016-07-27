@@ -30,6 +30,11 @@ function fetchUserData(elem) {
 		.then(function(response) {
 			// get the next user's data after 8s
 			setTimeout(fetchUserData, 8000, elem);
+		})
+		.catch(function(err) {
+			// if something went wrong, try again
+			// this error handling is very basic and should be improved for production code
+			fetchUserData(elem);
 		});
 }
 
