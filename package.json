@@ -1,0 +1,12 @@
+{
+  "name": "birgit-gyg-app",
+  "version": "1.0.0",
+  "description": "App to show a user's activity for GetYourGuide",
+  "author": "Birgit Brodbeck",
+  "scripts": {
+  	"app": "./node_modules/http-server/bin/http-server -o"
+  },
+  "dependencies": {
+    "http-server": "0.9.0"
+  }
+}

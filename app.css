@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background: #ecede8;
+	font-family: "Lato", Arial, sans-serif;
+	font-size: 32px;
+	line-height: 1.42857;
+	color: #333;
+}
+
+#map {
+	height: 100vh;
+	background: #ecede8;
+}
+
+article {
+	position: absolute;
+	top: 55vh;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.activity {
+	text-align: left;
+	display: inline-block;
+}
+
+.activity-content, h1 {
+	display: inline-block;
+}
+
+h1, p {
+	background: #fff;
+	padding: 0.6rem;
+	-webkit-font-smoothing: antialiased;
+}
+
+img {
+	float: left;
+	border: 5px solid #008cc5;
+	margin-right: 1rem;
+}
